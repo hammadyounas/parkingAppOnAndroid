@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anashamidkh.parkingsystem.AuthenticationActivity"
+    tools:showIn="@layout/activity_authentication"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:text="@string/login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="@color/fontColor"/>
+
+    <EditText
+        android:id="@+id/email_Authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailAddress"
+        android:textColor="@color/editTextFontColor"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="u@test.com"/>
+
+    <EditText
+        android:id="@+id/password_Authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email_Authen"
+        android:layout_alignLeft="@+id/email_Authen"
+        android:layout_alignStart="@+id/email_Authen"
+        android:layout_alignRight="@+id/email_Authen"
+        android:layout_alignEnd="@+id/email_Authen"
+        android:hint="@string/password"
+        android:textColor="@color/editTextFontColor"
+        android:text="123456"/>
+
+    <Button
+        android:id="@+id/loginBtn_Authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password_Authen"
+        android:layout_alignStart="@+id/password_Authen"
+        android:layout_below="@+id/password_Authen"
+        android:layout_marginTop="42dp"
+        android:text="@string/login"
+        android:textColor="@color/fontColor"
+        android:background="@color/backgroundColorBtn"/>
+
+    <Button
+        android:id="@+id/signupBtn_Authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/password_Authen"
+        android:layout_alignRight="@+id/password_Authen"
+        android:layout_alignTop="@+id/loginBtn_Authen"
+        android:background="@color/backgroundColorBtn"
+        android:text="@string/signup"
+        android:textColor="@color/fontColor" />
+
+
+</RelativeLayout>

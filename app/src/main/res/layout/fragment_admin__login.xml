@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Admin_LoginFragment"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcomeAdmin"
+        android:textColor="@color/fontColor"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/addParkingArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/backgroundColorBtn"
+                android:textColor="@color/fontColor"
+                android:text="@string/addParkingArea"/>
+            <Button
+                android:id="@+id/viewBookingsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/backgroundColorBtn"
+                android:textColor="@color/fontColor"
+                android:text="@string/viewBookings"/>
+
+            <Button
+                android:id="@+id/viewUsersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/backgroundColorBtn"
+                android:textColor="@color/fontColor"
+                android:text="@string/viewUsers"/>
+
+            <Button
+                android:id="@+id/viewFeedbackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/backgroundColorBtn"
+                android:textColor="@color/fontColor"
+                android:text="@string/viewFeedback"/>
+
+            <Button
+                android:id="@+id/logoutBtn_Admin_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/backgroundColorBtn"
+                android:textColor="@color/fontColor"
+                android:text="@string/logout"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anashamidkh.parkingsystem.FeedbackDescription"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:textColor="@color/fontColor"
+        android:textSize="25sp"
+        android:text="@string/feedback"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/editTextFontColor"
+                android:text="@string/userName"/>
+
+            <EditText
+                android:id="@+id/name_FeedbackDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/fontColor"
+                android:hint="null"
+                android:inputType="none"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/editTextFontColor"
+                android:text="@string/feedback"/>
+
+            <EditText
+                android:id="@+id/feedback_FeedbackDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/fontColor"
+                android:hint="null"
+                android:inputType="none"
+                android:focusable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/editTextFontColor"
+                android:text="@string/date"/>
+
+            <EditText
+                android:id="@+id/date_FeedbackDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/fontColor"
+                android:hint="null"
+                android:inputType="none"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/editTextFontColor"
+                android:text="@string/time"/>
+
+            <EditText
+                android:id="@+id/time_FeedbackDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/fontColor"
+                android:hint="null"
+                android:inputType="none"
+                android:focusable="false"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

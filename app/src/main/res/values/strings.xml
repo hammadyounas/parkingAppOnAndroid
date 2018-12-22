@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ParkingSystem</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- activity_authentication.xml -->
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="password">Password</string>
+
+    <!-- activity_signup.xml -->
+    <string name="name">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+
+    <!-- fragment_user_login.xml -->
+    <string name="welcomeUser">Welcome User</string>
+    <string name="newBooking">New Booking</string>
+    <string name="myBookings">My Bookings</string>
+    <string name="cancelBooking">Cancel Booking</string>
+    <string name="myDetails">My Details</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout">Logout</string>
+
+    <!-- fragment_admin_login.xml -->
+    <string name="welcomeAdmin">Welcome Admin</string>
+    <string name="addParkingArea">Add Parking Area</string>
+    <string name="viewBookings">View Bookings</string>
+    <string name="viewUsers">View Users</string>
+    <string name="viewFeedback">View Feedback</string>
+
+    <!-- activity_user_description.xml -->
+    <string name="userProfile">User Profile</string>
+
+    <!--activity_submit_feedback.xml -->
+    <string name="submit">Submit</string>
+
+    <!--activity_feedback_description.xml -->
+    <string name="userName">User Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+    <!-- activity_area.xml -->
+    <string name="area">Area</string>
+    <string name="area1">Gulshan-e-Iqbal</string>
+    <string name="area2">Gulistan-e-Jauhar</string>
+    <string name="area3">Saddar</string>
+
+    <!-- activity_slots.xml -->
+    <string name="duration">Duration</string>
+    <string name="slot1">Slot 1</string>
+    <string name="slot2">Slot 2</string>
+    <string name="slot3">Slot 3</string>
+    <string name="slot4">Slot 4</string>
+    <string name="slot5">Slot 5</string>
+    <string name="slot6">Slot 6</string>
+    <string name="search">Search</string>
+
+    <!-- activity_cancel_booking.xml -->
+    <string name="areaName">Area</string>
+    <string name="slot">Slot</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- activity_booking_description.xml -->
+    <string name="bookingDesc">Booking Info</string>
+    <string name="bookingId">Booking Id</string>
+    <string name="remove">Remove</string>
+</resources>

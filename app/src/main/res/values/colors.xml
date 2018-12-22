@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="backgroundColor">#1D2E80</color>
+    <color name="backgroundColorBtn">#351435</color>
+    <color name="fontColor">#6275CE</color>
+    <color name="editTextFontColor">#F0F1F8</color>
+
+    <color name="editTextFontColor2">#000000</color>
+    <color name="backgroundColorForSlotsActivity">#4D4C4D</color>
+    <color name="slotNotAvailable">#FA0242</color>
+    <color name="slotAvailable">#075411</color>
+    <!-- <color name="slotAvailable">#D4D9D5</color> -->
+    <color name="initialColorOfSlots">#D4D9D5</color>
+</resources>
